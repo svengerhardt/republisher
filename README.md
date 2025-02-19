@@ -18,8 +18,16 @@ docker build -t republisher .
 
 ### Usage
 
+**Url**
+
 ```shell
 docker run --rm -it --env-file .env republisher --url "https://www.example.com"
+```
+
+**Headline**
+
+```shell
+docker run --rm -it --env-file .env republisher --headline "Headline text"
 ```
 
 ## Local
