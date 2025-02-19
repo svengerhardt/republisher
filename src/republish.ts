@@ -41,7 +41,7 @@ import {Prompts} from "./prompts.js"
     }
 
     let prompt = await promptComposer.composePrompt()
-    console.log(prompt)
+    // console.log(prompt)
 
     const chatClient = new ChatClient(new OpenAIProvider({
         model: 'gpt-4o'
